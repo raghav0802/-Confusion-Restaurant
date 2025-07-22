@@ -84,4 +84,15 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
+// Set port and start server
+const PORT = process.env.PORT || 3000;
+const SECURE_PORT = process.env.SECURE_PORT || 3443;
+
+app.set('port', PORT);
+app.set('secPort', SECURE_PORT);
+
+app.listen(PORT, () => {
+ 
+});
+
 module.exports = app;
