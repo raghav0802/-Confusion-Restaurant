@@ -1,1 +1,1 @@
-export const baseUrl = 'https://confusion-restaurant-8ccc.onrender.com';
+export const baseUrl = 'https://confusion-restaurant-8ccc.onrender.com/';
